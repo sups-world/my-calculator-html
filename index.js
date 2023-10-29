@@ -1,12 +1,15 @@
-const btnOneEl = document.getElementById("one")
-const btnTwoEl = document.getElementById("two")
-const btnEqualsEl = document.getElementById("equals")
-const btnPlusEl = document.getElementById("plus")
+const btnOneEl = document.getElementById("one");
+const btnTwoEl = document.getElementById("two");
+const btnEqualsEl = document.getElementById("equals");
+const btnPlusEl = document.getElementById("plus");
+
+
+let a,b,calc;
 
 btnOneEl.addEventListener("click",(e) => {
     e.preventDefault();
     e.value = 1;
-    console.log(e.value)
+    console.log(e.value);
 })
 btnTwoEl.addEventListener("click",(e) => {
     e.preventDefault();
@@ -23,3 +26,7 @@ btnPlusEl.addEventListener("click",(e) => {
     e.value = '+';
     console.log(e.value)
 })
+
+function calulate(){
+
+}
