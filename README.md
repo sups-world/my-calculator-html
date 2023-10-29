@@ -1,4 +1,4 @@
-# my-calculator-js
+# my-calculator
 
 # Introduction
 This app works as a simple calculator capable of addition,substraction,multiplication and division.
